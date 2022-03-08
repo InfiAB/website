@@ -44,6 +44,12 @@ body {
   transition: ease all .2s;
 }
 
+.navbar-toggler-dark .icon-bar-dark {
+  background-color: white;
+  transform: rotate(0deg) translate(0px, 0px);
+  transition: ease all .2s;
+}
+
 .navbar-toggler .icon-bar {
   display: block;
   width: 22px;
