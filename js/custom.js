@@ -11,4 +11,8 @@ function myFunction() {
     innerElement[i].classList.toggle('icon-bar-dark');
   }
 }
-// Change the classList param so that the whole thing is not getting disrupted.
+
+const hours = new Date().getHours();
+if(hours > 20 && hours < 7) {
+  myFunction();
+}
