@@ -121,6 +121,28 @@ body {
   transform: rotate(-45deg) translate(4px, -4px);
   transition: ease all .2s;
 }
+/* 
+.make-round {
+  border-radius: 100%;
+} */
+
+.dot {
+  height: 20px;
+  width: 20px;
+  background-color: rgba(58, 58, 58, 0.623);
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.dot-dark {
+  height: 20px;
+  width: 20px;
+  background-color: rgba(255, 255, 255, 0.623);
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+}
 
 .sec-accent {
   background-color: #fafcf5;

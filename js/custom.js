@@ -2,6 +2,7 @@ function myFunction() {
   var element = document.body;
   var innerElement = document.getElementsByClassName("icon-bar");
   var innerElement1 = document.getElementById("bttn1");
+  var darkmodeButton = document.getElementsByClassName("dot");
   element.classList.toggle("dark-mode");
   
   element.classList.toggle("navbar-dark");
@@ -9,6 +10,11 @@ function myFunction() {
   for(i=0; i<innerElement.length; i++)
   {
     innerElement[i].classList.toggle('icon-bar-dark');
+  }
+
+  for(i=0; i<darkmodeButton.length; i++)
+  {
+    darkmodeButton[i].classList.toggle("dot-dark");
   }
 }
 
