@@ -12,6 +12,7 @@ function myFunction() {
   }
 }
 
+
 const hours = new Date().getHours();
 if(hours > 20 && hours < 24) {
   myFunction();

@@ -46,10 +46,15 @@ body {
   color: inherit;
 }
 
-.social-links>a, .social-links>a:hover, .social-links>a:focus, .social-links>a:active {
+.social-links>a, .social-links>a:active {
   text-decoration: none;
   text-underline-offset: 5px;
   color: inherit;
+  transition: text-underline-offset 10ms;
+}
+
+.social-links>a:hover, .social-links>a:focus {
+  text-underline-offset: 7px;
 }
 
 /* ---------------------- */
