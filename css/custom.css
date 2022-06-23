@@ -1,29 +1,5 @@
-@media screen and (max-device-width: 426px) {
-  .footer {
-    background-color: red;
-    /* font-size: 0.8rem; */
-    /* position: absolute; */
-    /* bottom: 0; */
-    /* overflow-x: hidden; */
-  }
-
-  .vert-center {
-    /* position: absolute; */
-    /* top: 33%; */
-    margin-top: 10vh; 
-    margin-bottom: 10vh;
-    text-align: center;
-  }
-}
-
-@media screen and (min-device-width: 427px) {
-  .vert-center {
-    /* position: absolute; */
-    /* top: 33%; */
-    margin-top: 27vh; 
-    margin-bottom: 27vh;
-    text-align: center;
-  }
+@media screen and (max-device-width: ) {
+  
 }
 
 body {
@@ -36,25 +12,19 @@ body {
   font-size: 90%;
 }
 
-.nav {
-  background-color: yellow;
-}
-
-.main {
-  background-color: aquamarine;
-}
-
 .footer {
-	font-size: 0.8rem;
-	position: absolute;
-	bottom: 20px;
-	overflow-x: hidden;
+  position: absolute;
+  bottom: 0;
+  font-size: 80%;
+  margin: auto;
+  text-align: center;
 }
 
 .vert-center {
-  /* position: absolute; */
-  /* top: 33%; */
-  text-align: center; 
+  position: absolute;
+  top: 33%;
+  margin: auto;
+  text-align: center;
 }
 
 .dark-mode {
